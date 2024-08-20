@@ -1,0 +1,16 @@
+{
+    "name": "MyUtilAssembly.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:9b63a06c0cdad8e47a5326d5223b84ac"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

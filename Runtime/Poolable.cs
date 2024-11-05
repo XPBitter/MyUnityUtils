@@ -10,7 +10,7 @@ namespace MyUtil.ObjectPool
         /// <summary>
         /// 객체 식별용 Enum 값
         /// </summary>
-        abstract public int ID { get; protected set; }
+        abstract public string ID { get; protected set; }
         /// <summary>
         /// 풀링 가능한 객체를 활성화
         /// </summary>

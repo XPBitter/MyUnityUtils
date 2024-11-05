@@ -8,17 +8,6 @@ namespace MyUtil
 { 
     public class Util
     {
-       
-
-        static public bool CheckGrounded(Vector3 position, float distance, int layer)
-        {
-            return Physics.CheckSphere(position, distance, layer);
-        }
-
-
-
-       
-
         /// <summary>
         /// 화면의 중심 좌표를 계산하여 반환하는 함수
         /// </summary>

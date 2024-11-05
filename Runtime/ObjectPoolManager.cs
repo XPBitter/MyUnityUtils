@@ -41,10 +41,7 @@ namespace MyUtil.ObjectPool
         {
             mPoolDic[id].ReturnToPool(poolable);
         }
-
-
     }
-
 
     [Serializable]
     public struct ObjectPoolInfo

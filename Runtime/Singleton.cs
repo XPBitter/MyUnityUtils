@@ -28,6 +28,5 @@ namespace MyUtil
         {
             DontDestroyOnLoad(gameObject);
         }
-
     }
 }

@@ -26,7 +26,15 @@ namespace MyUtil
 
         protected virtual void Awake()
         {
-            DontDestroyOnLoad(gameObject);
+            if (instance == null)
+            {
+                instance = this as T;
+                DontDestroyOnLoad(gameObject);
+            }
+            else if(instance != this)
+            {
+                Destroy(gameObject);
+            }
         }
     }
 }
